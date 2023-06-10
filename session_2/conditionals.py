@@ -79,7 +79,9 @@
 
 # Q4
 
-input("What is your height?")
+height = input ("What is your height?")
 
-if input <= 50:
+if height >= 120:
     print("Hop on!")
+elif height < 120:
+    print("Sorry, not today.")

@@ -22,12 +22,29 @@ popped_element = digits.pop(0)
 # print(popped_element)
 digits[1] = 90
 print(digits)
-
 #Nested list 
 letters = ['a','b','c','d',['Emily','Julie']]
 print(letters[4][0]) #Get the first list, then get the first element from another list
 
 
 #Check if 'a' exists in list letters 
-if 'a' in letters:
-    print("It is in the list")
+# if 'a' in letters:
+#     print("It is in the list")
+
+# Exercises 
+
+#Q1
+
+foods = [
+    "orange",
+    "apple",
+    "banana",
+    "strawberry",
+    "grape",
+    "blueberry",
+    ["carrot", "cauliflower", "pumpkin"],
+    "passionfruit",
+    "mango",
+    "kiwifruit"
+]
+print(foods[0])
