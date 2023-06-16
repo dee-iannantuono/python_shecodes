@@ -67,9 +67,12 @@
 #Divide by 5, then multiply by 9, then add 32
 
 
-degrees_f = 35
-def celcius_convert():
-    celcius_convert = {{degrees_f}-32}*{5/9}
+# fahrenheit = 35
+# celcius_convert = fahrenheit - 32 * 5 % 9
+# print(f("{celcius_convert}"))
+
+# def celcius_convert():
+#     celcius_convert = {{degrees_f}-32}*{5/9}
 
 # degrees_f = celcius_convert(5,9,32)
 # print((degrees_f))
