@@ -55,7 +55,7 @@
 
 #Define your function here
 
-# def get_integer():
+# def g et_integer():
 #     user_input = int(input("Could i please have an integer"))
 #     print(f"so your integer is {user_input}? Thanks!")
 

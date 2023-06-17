@@ -88,19 +88,75 @@
 #         print("You get it right!")
 #         break
 
-#Loop exercises 
-#Q1
+#FOR Loop exercises 
+#Q1 Ask the user for a number. Use a for loop to print the times tables for that number,up to ten:
 
 # to_multiply = int(input("Give me a number"))
 # for number in range(1,11):
 #     print(f"{to_multiply} x {number} = {to_multiply*number}")
 
-#Q2
+#Q2 Ask the user for an integer. Using a for loop, add up every number from 0 up to thatinteger, and print the result
 
-user_number = int(input("Enter a number"))
+# user_number = int(input("Enter a number"))
 
-for number in range (0, user_number+1):
-    number = number + number
-    print(number)
+# for number in range (0, user_number+1):
+#     number = number + number
+#     print(number)
 
-print(str(number))
+# print(str(number))
+
+#Q3 Save a list of numbers to a variable in your script, and then use a for loop to print thesum of all the numbers in the list
+
+# my_numbers = [3, 5, 9, 1]
+# total = 0
+# for element in my_numbers:
+#     total = total + element
+# print(total)
+
+# Q4 Let's improve our Mambo No. 5 code from the last block of content
+
+# lyrics = [
+#     ["Monica", "in my life"],
+#     ["Erica", "by my side"],    
+#     ["Rita's", "all I need"],    
+#     ["Tina's", "what I see"],    
+#     ["Sandra", "in the sun"],    
+#     ["Mary", "having fun"],    
+#     ["Jessica", "here I am"]
+#     ]
+
+# for i in lyrics:
+#     name = i[0]
+#     text = i[1]
+#     song = "A little bit of " + name + " " + text + ";"
+#     print(song)
+# print(f"A little bit of you makes me your man (ah!)")
+# print(f"*trumpet solo")
+
+# for i in lyrics:
+#     name, text = i #This works as well and makes it shorted
+#     song = "A little bit of " + name + " " + text + ";"
+#     print(song)
+# print(f"A little bit of you makes me your man (ah!)")
+# print(f"*trumpet solo")
+
+# Nested Loops 
+# Q1
+
+# groceries = [
+#     ["Baby Spinach", 2.78],
+#     ["Hot Chocolate", 3.70],
+#     ["BBQ Shapes", 9.00],
+#     ["Bread", 2.10],
+#     ["Carrots", 0.56],
+#     ["Oranges", 3.08]
+#     ]
+
+# sum = 0 
+
+# for food,price in groceries:
+#     amount = int(input(f"Please enter the quantity for {food}"))
+#     itemamount = amount*price
+#     sum = sum + itemamount 
+
+# print(f"Thank you, your total is ${sum}")
